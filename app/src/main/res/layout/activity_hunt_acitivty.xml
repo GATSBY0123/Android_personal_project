@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".HuntActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1~30 : 엘로딘 위습 or 세비지 터미널 쓰레기장  파이트클럽으로 가도 상관없지만 바로 30렙 몹을 잡기 힘든경우 폐기물처리장 1>2>3을 단계적으로 넘어갈 수 있는 쓰레기장이 더 좋습니다. 지형도 들개보단 좋은편입니다 걸어가기 귀찮으면 엘로딘으로 가시면 되겠습니다"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/one" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:text="30~42 : 테마던전1 길라잡이 개편 이전에는 여섯갈래길 도장을 위해 반드시 골드비치를 깨줘야했지만 취향대로 아무거나 해도 됩니다"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:text="42~50 : 테마던전2 or 와일드보어의 땅 테마던전이 질린다면 와보땅으로 가줍니다 버닝서버이거나 육성시즌이라 자리가 없다면 와보땅에서 왼쪽으로 한번 더 들어가면 자리 많습니다"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:text="50~60 : 조용한 습지 or 빛이 들지 않는 곳 습지는 평소에도 사람이 많은편인데 육성시즌에는 채널마다 2명은 기본으로 보입니다 습지에서 안쪽으로 딱 2번만 들어가면 빛이 들지 않는 곳이 나오는데 시계방향으로 돌 수 있는 단순한 맵에 젠도 나쁘지 않으니 박터지게 싸우지 말고 평화롭게 렙업하시기 바랍니다 자리가 있다면 습지가 더 잘오릅니다"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/drake1" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/drake2" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:text="60~70 : 구름공원 4 개인적으로 하늘계단을 선호하지 않는편이라 찾아본 사냥터입니다 일단 하늘계단은 사람이 많은건 둘째치고 지형이 대각선으로 되어있어서 개빡치는데 여긴 그런게 없습니다 저는 육성시에 하늘계단에 자리있는지 확인도 안하고 바로 구름공원으로 직행하는 편입니다 여기서 캐릭터 30개 이상 육성하면서 사람 그림자도 본적없습니다"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/cloud" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

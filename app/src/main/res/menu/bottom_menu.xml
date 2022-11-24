@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_warrior"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_name1"
+        android:title="전사"/>
+
+    <item
+        android:id="@+id/action_archor"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_name2"
+        android:title="궁수"/>
+
+    <item
+        android:id="@+id/action_magican"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_name3"
+        android:title="법사"/>
+
+    <item
+        android:id="@+id/action_theif"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_name4"
+        android:title="도적"/>
+
+    <item
+        android:id="@+id/action_pirate"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_nam5"
+        android:title="해적"/>
+</menu>

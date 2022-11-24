@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gatsby.portfolio">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Portfolio"
+        android:networkSecurityConfig="@xml/network"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".HuntActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MesoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WarriorCore"
+            android:exported="false" />
+        <activity
+            android:name=".ArchorCore"
+            android:exported="false" />
+        <activity
+            android:name=".ThiefCore"
+            android:exported="false" />
+        <activity
+            android:name=".PirateCore"
+            android:exported="false" />
+        <activity
+            android:name=".MagicanCore"
+            android:exported="false" />
+        <activity
+            android:name=".EventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogoActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MapleWebViewActivity" />
+        <activity android:name=".Event1WebViewActivity" />
+        <activity android:name=".Event2WebViewActivity" />
+        <activity android:name=".Event3WebViewActivity" />
+        <activity android:name=".JoinActivity" />
+        <activity android:name=".JobActivity" />
+        <activity android:name=".HeroLayoutActivity" />
+        <activity android:name=".HeroDeal" />
+        <activity android:name=".PaladinLayoutActivity" />
+        <activity android:name=".PaladinDeal" />
+        <activity android:name=".DarkKnightLayoutActivity" />
+        <activity android:name=".DarkKnightDeal" />
+        <activity android:name=".BowMasterLayoutActivity" />
+        <activity android:name=".BowMasterDeal" />
+        <activity android:name=".SinLayoutActivity" />
+        <activity android:name=".SinDeal" />
+        <activity android:name=".PathLayoutActivity" />
+        <activity android:name=".PathfinderDeal" />
+        <activity android:name=".NightLordLayoutActivity" />
+        <activity android:name=".NightDeal" />
+        <activity android:name=".ViperLayoutActivity" />
+        <activity android:name=".ViperDeal" />
+        <activity android:name=".FirePoisonLayoutActivity" />
+        <activity android:name=".FirePoisonDeal" />
+    </application>
+
+</manifest>
